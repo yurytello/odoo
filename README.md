@@ -23,6 +23,7 @@ there are several options:
 * Replay the branch by hand
 
 Other way to migrate your repository is:
+
 1) Install bzr-fastimport
 
     $ sudo apt-get install bzr-fastimport
