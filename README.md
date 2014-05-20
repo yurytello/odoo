@@ -29,6 +29,7 @@ Other way to migrate your repository is:
     $ sudo apt-get install bzr-fastimport
 
 2) Move into your bazzar branch local directory
+
 3) Initialice your local branch directory with git
 
     $ git init
