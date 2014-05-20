@@ -24,15 +24,24 @@ there are several options:
 
 Other way to migrate your repository is:
 * Install bzr-fastimport
+
     $ sudo apt-get install bzr-fastimport
+
 * Move into your bazzar branch local directory
 * Initialice your local branch directory with git
+
     $ git init
+
 * Run the next command to migrate your bzr to git
+
     $ bzr fast-export --git-branch=master . | git fast-import
+
 * Check your logs on git
+
     $ git log
+
 * Push your new git branch to github or other
+
     $ git push https://...
 
 System Requirements
